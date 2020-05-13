@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acfcf302-d293-41fb-a4db-c5420abd77f5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Scala Object" />
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZQeoENJtMlwiv0a4oG0vTYA0od" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scala_beginner" />
+  </component>
+  <component name="RunManager" selected="Application.BasicsOOexcercise">
+    <configuration name="BasicsOOexcercise" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.part2.BasicsOOexcercise" />
+      <module name="rock-the-jvm-scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.part2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaseClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.CaseClasses" />
+      <module name="rock-the-jvm-scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exceptions (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.part2.Exceptions" />
+      <module name="rock-the-jvm-scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.part2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Exceptions" />
+      <module name="rock-the-jvm-scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.part2.ListTest" />
+      <module name="rock-the-jvm-scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.part2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BasicsOOexcercise" />
+        <item itemvalue="Application.Exceptions (1)" />
+        <item itemvalue="Application.Exceptions" />
+        <item itemvalue="Application.CaseClasses" />
+        <item itemvalue="Application.ListTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acfcf302-d293-41fb-a4db-c5420abd77f5" name="Default Changelist" comment="" />
+      <created>1584775919916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584775919916</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589210718352">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589210718352" />
+    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589290743442">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589290743442" />
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1589360660266">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589360660266" />
+    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1589360661635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589360661635" />
+    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1589360661635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589360661635" />
+    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1589360661635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589360661635" />
+    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1589360661635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589360661635" />
+    <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1589294903808">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589294903808" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589288180585">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589288180585" />
+    <state x="-969" y="108" width="1339" height="715" key="dock-window-1" timestamp="1589297686455">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="-969" y="108" width="1339" height="715" key="dock-window-1/0.0.1366.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1589297686455" />
+    <state x="-1382" y="29" width="1339" height="715" maximized="true" key="dock-window-1/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589296114977" />
+    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1589293022896">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589293022896" />
+    <state x="65" y="0" key="new project wizard" timestamp="1589340027576">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589340027576" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1589199738592">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589199738592" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589290706632">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589290706632" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/lectures/part1basics/Functions.scala</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
