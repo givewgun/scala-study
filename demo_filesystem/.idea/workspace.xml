@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87d8df0-df7f-4d8f-a05c-beefa4996af2" name="Default Changelist" comment="" />
+    <list default="true" id="c87d8df0-df7f-4d8f-a05c-beefa4996af2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/commands/Cat.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/commands/Echo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/commands/Rm.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/.idea/scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/commands/Command$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/commands/Command$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/commands/Command$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/commands/Command$$anon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/commands/Command$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/commands/Command$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/commands/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/commands/CreateEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/commands/CreateEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/files/Directory$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/files/Directory$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/files/Directory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/files/Directory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/files/File$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/files/File$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/files/File.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo_filesystem/org/rtjvm/scala/oop/files/File.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/commands/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/commands/Command.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/files/Directory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/files/Directory.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/files/File.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/files/File.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/filesystem/FileSystem.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/rtjvm/scala/oop/filesystem/FileSystem.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala_beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_beginner/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +39,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1bpruwfQZvpzIeds92RH77OYlDw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +54,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../scala" />
   </component>
   <component name="RunManager">
@@ -64,45 +91,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589340573562">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589385842921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589340573562" />
-    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589358212658">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589385842921" />
+    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589385372840">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589358212658" />
+    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589385372840" />
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1589386824588">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589386824588" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589360522695">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589360522695" />
-    <state width="1323" height="130" key="GridCell.Tab.0.bottom" timestamp="1589360467897">
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom" timestamp="1589386614054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589360467897" />
-    <state width="1323" height="130" key="GridCell.Tab.0.center" timestamp="1589360467897">
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589386614054" />
+    <state width="1323" height="231" key="GridCell.Tab.0.center" timestamp="1589386614054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="130" key="GridCell.Tab.0.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589360467897" />
-    <state width="1323" height="130" key="GridCell.Tab.0.left" timestamp="1589360467897">
+    <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589386614054" />
+    <state width="1323" height="231" key="GridCell.Tab.0.left" timestamp="1589386614054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="130" key="GridCell.Tab.0.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589360467897" />
-    <state width="1323" height="130" key="GridCell.Tab.0.right" timestamp="1589360467897">
+    <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589386614054" />
+    <state width="1323" height="231" key="GridCell.Tab.0.right" timestamp="1589386614054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="130" key="GridCell.Tab.0.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589360467897" />
-    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1589347894849">
+    <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589386614054" />
+    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1589382784072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589347894849" />
+    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589382784072" />
     <state x="65" y="0" key="new project wizard" timestamp="1589356280504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589356280504" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589346347172">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1589385465970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589346347172" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589385465970" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589385055896">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589385055896" />
   </component>
 </project>

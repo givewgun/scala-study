@@ -9,6 +9,9 @@ class Directory(override val parentPath: String,
                 val contents: List[DirEntry])
   extends DirEntry(parentPath, name) {
 
+
+
+
   def isRoot: Boolean = parentPath.isEmpty
 
 
@@ -30,17 +33,30 @@ class Directory(override val parentPath: String,
     new Directory(parentPath, name, contents :+ newEntry)
   }
 
-  def replaceEntry(entryName: String, newEntry: Directory): Directory = {
+  def replaceEntry(entryName: String, newEntry: DirEntry): Directory = {
     new Directory(parentPath, name, contents.filter(e => !e.name.equals(entryName)) :+ newEntry)
   }
 
+  //findescendant == find new working directory นั่นเองงงงงง
+  //traverse down the path to visit all decendant directory instance!
   def findDescendant(path: List[String]): Directory = {
     if(path.isEmpty) this //no descendent to search for
     else findEntry(path.head).asDirectory.findDescendant(path.tail)
   }
 
+  def findDescendant(relativePath: String): Directory = {
+    if(relativePath.isEmpty) this
+    else findDescendant(relativePath.split(Directory.SEPARATOR).toList)
+  }
 
-  def getAllFoldersInPath: List[String] = { //all predecessor folder + self !!NOT ALL CHILD FOLDER
+  def removeEntry(entryName: String): Directory = {
+    if(!hasEntry(entryName)) this //nothing to remove -> if able return new directory
+    else new Directory(parentPath, name, contents.filter(x => !x.name.equals(entryName)))
+  }
+
+  //all predecessor folder + self !!NOT ALL CHILD FOLDER
+  //return all path tokens!!
+  def getAllFoldersInPath: List[String] = {
     path.substring(1).split(Directory.SEPARATOR).toList.filter(f => !f.isEmpty) //filter out empty string (like from root)
     // /a/b/c/d => List["a", "b","c","d"]
 
