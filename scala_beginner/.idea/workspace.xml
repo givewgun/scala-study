@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfcf302-d293-41fb-a4db-c5420abd77f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exercise/part3/MyList2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise/part3/WhatsAFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/AnonymousFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/HOFsCurries.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/summary/part3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo_filesystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_filesystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_filesystem/src/org/rtjvm/scala/oop/commands/Rm.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_filesystem/src/org/rtjvm/scala/oop/commands/Rm.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +44,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/exercise/part3" />
   </component>
-  <component name="RunManager" selected="Application.BasicsOOexcercise">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\My Drive\scala-study\scala_beginner\src\exercise\part3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HOFsCurries">
     <configuration name="BasicsOOexcercise" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="exercise.part2.BasicsOOexcercise" />
       <module name="rock-the-jvm-scala-beginner" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercise.part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaseClasses" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.CaseClasses" />
-      <module name="rock-the-jvm-scala-beginner" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.part2.ListTest" />
+    <configuration name="HOFsCurries" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.HOFsCurries" />
       <module name="rock-the-jvm-scala-beginner" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.part2.*" />
+          <option name="PATTERN" value="lectures.part3fp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhatsAFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.part3.WhatsAFunction" />
+      <module name="rock-the-jvm-scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.part3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HOFsCurries" />
+        <item itemvalue="Application.WhatsAFunction" />
         <item itemvalue="Application.BasicsOOexcercise" />
         <item itemvalue="Application.Exceptions (1)" />
         <item itemvalue="Application.Exceptions" />
-        <item itemvalue="Application.CaseClasses" />
-        <item itemvalue="Application.ListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,30 +145,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589210718352" />
-    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589290743442">
+    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589432140481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589290743442" />
+    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589432140481" />
+    <state x="193" y="0" key="CommitChangelistDialog2" timestamp="1589437568911">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="193" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589437568911" />
     <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1589340020347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589340020347" />
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1589340030214">
+    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1589437472383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589340030214" />
-    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1589340030214">
+    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589437472383" />
+    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1589437472382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589340030214" />
-    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1589340030213">
+    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589437472382" />
+    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1589437472380">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589340030213" />
-    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1589340030214">
+    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589437472380" />
+    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1589437472383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589340030214" />
+    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589437472383" />
     <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1589294903808">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

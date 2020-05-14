@@ -4,6 +4,26 @@ import org.rtjvm.scala.oop.filesystem.State
 
 class Rm(name: String) extends Command {
 
+
+  override def apply(state: State): State = {
+    //1. get working directory
+    val wd = state.wd
+
+    //2. get absolute path of file to rm
+    val absolutePath = {
+      if(name.startsWith(Directory.SEPARATOR)) name
+      else if(wd.isRoot) wd.path + name // /name
+      else wd.path + Directory.SEPARATOR + name
+    }
+
+    //3. check like rm /
+    if(absolutePath.equals(Directory.ROOT_PATH)){
+      state.setMessage("CANT DELETE ROOT")
+    }else{
+      doRm(state, absolutePath)
+    }
+  }
+
   def doRm(state: State, path: String): State ={
 
     /*
@@ -50,22 +70,6 @@ class Rm(name: String) extends Command {
     }
   }
 
-  override def apply(state: State): State = {
-    //1. get working directory
-    val wd = state.wd
 
-    //2. get absolute path of file to rm
-    val absolutePath = {
-      if(name.startsWith(Directory.SEPARATOR)) name
-      else if(wd.isRoot) wd.path + name // /name
-      else wd.path + Directory.SEPARATOR + name
-    }
 
-    //3. check like rm /
-    if(absolutePath.equals(Directory.ROOT_PATH)){
-      state.setMessage("CANT DELETE ROOT")
-    }else{
-      doRm(state, absolutePath)
-    }
-  }
 }
