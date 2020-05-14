@@ -15,6 +15,7 @@ object HOFsCurries extends App {
     else nTimes(f, n-1, f(x)) //f.apply(x)
   }
 
+
   val plusOne = (x: Int) => x + 1 // an anonymous fucntion !!
   println(nTimes(plusOne, 10, 1))
 
@@ -22,7 +23,9 @@ object HOFsCurries extends App {
 
   // have service that will take only what val you want to put in -> do higher-func core for you
   // ntb(f,n) = x => f(f(f(...f(x))))
-  //increment10 = ntb(plusOne, 10) = x => plusOne(plusOne(...(x)))
+  //increment10 = ntb(plusOne, 10) =
+  //                x => plusOne(plusOne(...(x)))
+  //val y = increment10(1)
   def nTimesBetter(f: Int => Int, n: Int): (Int => Int) ={
     // new labda to receive another parameter (real one)
     if(n <= 0) (x: Int) => x // 0 times

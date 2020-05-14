@@ -1,5 +1,22 @@
-#Part 3 Function
-##Basic 
+# Part 3 Function
+##Confusinon clearance
+-concept func is like apply() method in an instance
+- confuse about curries and labda when how???
+    - the end of => is the return type
+    - view => as another enter line 
+        - then that line becomes .apply param=val (before the val)
+        ```
+        def toCurry(f: (Int, Int) => Int): (Int => Int => Int) =
+            x => y => f(x,y)
+        ```
+        -basically is
+        ```toCurry(f) = 
+            apply(x)
+                .apply(y)
+                    f(x,y)
+        ```   
+
+## Basic 
 - pass func as params
 - use func as value
 - problem cuz JVM designed for Java -> OOP
@@ -45,7 +62,7 @@
       val added: (Int, Int) => Int = _ + _
 
         ```
-##Higher-order functions and Curried
+## Higher-order functions and Curried
 - Recap
     - A curried function is a function that returns a function, and allows to be called with list of parameters:
     ```

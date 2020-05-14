@@ -1,6 +1,6 @@
 # Part 2
 
-##Basics
+## Basics
 - constructor
     - className(x: type, val y: type){}
     - auxiallary constructor -> call defaut constructor but with different parameters
@@ -9,7 +9,7 @@
     - need to add val/var to class parameters to covert it to field
 - field is prefered to be val -> immutibility -> modify = return new Instance!!!!!!!!
 
-##Method
+## Method
 - infix notation = operator notation (only 1 parameter method)
     - syntactic sugar
     - println(mary likes "Inception")
@@ -30,7 +30,7 @@
     - println(mary()) //call the apply() method in class
     - can have parameters
 
-##Objects
+## Objects
 - Scala doesn't have "static" value/method
 - Scala objects
     - are in theier own class
@@ -43,7 +43,7 @@
     - def main(args: Array[String]): Unit = {....}
     - same as extends App
    
-##Inheritance & Trait
+## Inheritance & Trait
 - Basics
     - Single class inheritance
     - overriding
@@ -78,14 +78,14 @@
         class Cage[A >: Animal](creature: A)
         val cage = new Cage(new Creature)
         ```
- ##Anonymous class
+## Anonymous class
 - anonymous class -> new ClassName {....} -> compiler create a new anonymous class (not the same name that was implemented prior)
 - on the spot implementation / overriding
 - must provide same paremters as original class constructor
 - can be used for abstract or simple class
 - implement all abstract method or field
 
-##Case Class
+## Case Class
 - use in Collections-like
 - AKKA!!!!
 - class parameters are fields
@@ -98,7 +98,7 @@
 - CCs have extractor patterns
     - CCs can be used in PATTERN MATCHING
 
-##Exceptions
+## Exceptions
 - extends Throwable
     - Exceptions or Error
 - Creatable
