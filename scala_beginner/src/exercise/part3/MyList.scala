@@ -227,5 +227,12 @@ object ListTest extends App{
 
 //  println(new Cons(listOfStrings, listOfStrings).toString)
 
+  //for comprehension cuz what we did support it, map flatMap filter support it
+  val combinations = for {  //also an expression
+    n <- listOfIntegers
+    string <- listOfStrings
+  } yield n + " " + string
+  println(combinations)
+
 
 }

@@ -1,4 +1,21 @@
 # Part 3 Function
+##Confusinon clearance
+-concept func is like apply() method in an instance
+- confuse about curries and labda when how???
+    - the end of => is the return type
+    - view => as another enter line 
+        - then that line becomes .apply param=val (before the val)
+        ```
+        def toCurry(f: (Int, Int) => Int): (Int => Int => Int) =
+            x => y => f(x,y)
+        ```
+        -basically is
+        ```toCurry(f) = 
+            apply(x)
+                .apply(y)
+                    f(x,y)
+        ```   
+
 ## Basic 
 - pass func as params
 - use func as value

@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfcf302-d293-41fb-a4db-c5420abd77f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercise/part3/HOFs.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise/part3/MapAndTuple.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise/part3/MapFlatmapFilterFor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise/part3/Maybe.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/MapFlatmapFilterFor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/Sequences.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/TuplesAndMaps.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/summary/Collections.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/Cons$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/Cons$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/Cons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/Cons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/EmptyList$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/EmptyList$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/EmptyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/EmptyList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/ListTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/ListTest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/ListTest$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/ListTest$delayedInit$body.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/ListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/MyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/lectures/part3fp/HOFsCurries$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/lectures/part3fp/HOFsCurries$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/summary/part3.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/summary/part3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/part3/MyList2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/part3/MyList2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part3fp/HOFsCurries.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part3fp/HOFsCurries.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/summary/part2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/summary/part2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise/part3/MyList2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/part3/MyList.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/summary/part3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/summary/part3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,33 +56,7 @@
       <recent name="G:\My Drive\scala-study\scala_beginner\src\exercise\part3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListTest">
-    <configuration name="BasicsOOexcercise" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.part2.BasicsOOexcercise" />
-      <module name="rock-the-jvm-scala-beginner" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise.part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exceptions (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.part2.Exceptions" />
-      <module name="rock-the-jvm-scala-beginner" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise.part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MapAndTuple">
     <configuration name="HOFsCurries" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part3fp.HOFsCurries" />
       <module name="rock-the-jvm-scala-beginner" />
@@ -111,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhatsAFunction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.part3.WhatsAFunction" />
+    <configuration name="MapAndTuple" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.part3.MapAndTuple" />
       <module name="rock-the-jvm-scala-beginner" />
       <extension name="coverage">
         <pattern>
@@ -124,13 +96,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sequences" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.Sequences" />
+      <module name="rock-the-jvm-scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part3fp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="rock-the-jvm-scala-beginner" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapAndTuple" />
+        <item itemvalue="Scala REPL.Scala REPL" />
+        <item itemvalue="Application.Sequences" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.HOFsCurries" />
-        <item itemvalue="Application.WhatsAFunction" />
-        <item itemvalue="Application.BasicsOOexcercise" />
-        <item itemvalue="Application.Exceptions (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -152,58 +147,66 @@
       <option name="project" value="LOCAL" />
       <updated>1589437597584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add more lesson&#10;-higher-order func">
+      <created>1589471065610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589471065610</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add more lesson&#10;-functional prog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more lesson&#10;-functional prog" />
+    <MESSAGE value="Add more lesson&#10;-higher-order func" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more lesson&#10;-higher-order func" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589462707400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589462707400" />
-    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589463363933">
+    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589516781137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589463363933" />
-    <state x="193" y="0" key="CommitChangelistDialog2" timestamp="1589471022173">
+    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589516781137" />
+    <state x="169" y="0" key="CommitChangelistDialog2" timestamp="1589524314512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="193" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589471022173" />
+    <state x="169" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589524314512" />
     <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1589340020347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589340020347" />
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1589470964341">
+    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1589524257536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589470964341" />
-    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1589470964341">
+    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589524257536" />
+    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1589524257536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589470964341" />
-    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1589470964340">
+    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589524257536" />
+    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1589524257535">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589470964340" />
-    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1589470964341">
+    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589524257535" />
+    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1589524257536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589470964341" />
+    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589524257536" />
     <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1589294903808">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589294903808" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589437626229">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589471071119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589437626229" />
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589288180585">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589471071119" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589514928312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589288180585" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589514928312" />
     <state x="-969" y="108" width="1339" height="715" key="dock-window-1" timestamp="1589297686455">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
@@ -221,10 +224,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589199738592" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589465695095">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589522776514">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589465695095" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589522776514" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
