@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfcf302-d293-41fb-a4db-c5420abd77f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercise/part3/HandlingFailure.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise/part3/Options.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/HandlingFailure.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/Options.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/summary/Misc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/MaybeTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/MaybeTest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/part3/Maybe.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/part3/Maybe.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/summary/Collections.md" beforeDir="false" afterPath="$PROJECT_DIR$/summary/Collections.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/summary/Misc.md" beforeDir="false" afterPath="$PROJECT_DIR$/summary/Misc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/summary/part1.md" beforeDir="false" afterPath="$PROJECT_DIR$/summary/part1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/summary/part2.md" beforeDir="false" afterPath="$PROJECT_DIR$/summary/part2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/summary/part3.md" beforeDir="false" afterPath="$PROJECT_DIR$/summary/part3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +152,22 @@
       <option name="project" value="LOCAL" />
       <updated>1589524348897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add more lesson&#10;- Complete part3">
+      <created>1589556662831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589556662831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add more lesson&#10;-functional prog" />
     <MESSAGE value="Add more lesson&#10;-higher-order func" />
     <MESSAGE value="Add more lesson&#10;- Immutable Collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more lesson&#10;- Immutable Collection" />
+    <MESSAGE value="Add more lesson&#10;- Complete part3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more lesson&#10;- Complete part3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589462707400">
@@ -173,10 +178,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589516781137" />
-    <state x="169" y="0" key="CommitChangelistDialog2" timestamp="1589524332311">
+    <state x="169" y="0" key="CommitChangelistDialog2" timestamp="1589556656635">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="169" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589524332311" />
+    <state x="169" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589556656635" />
     <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1589340020347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -201,10 +206,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589294903808" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589524361516">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589556997675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589524361516" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589556997675" />
     <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589547846657">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
