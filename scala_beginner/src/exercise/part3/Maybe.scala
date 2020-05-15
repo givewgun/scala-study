@@ -33,6 +33,7 @@ object MaybeTest extends App{
   println(just3) //Just(3)
   println(just3.map(_ * 2)) //Just(6)
   println(just3.flatMap(x => Just(x % 2 == 0))) //Just(false)
+  println(just3.map( _ % 2 == 0)) //Just(false)
   println(just3.filter(_ % 2 == 0)) //MaybeNot
 }
 
