@@ -43,3 +43,47 @@ When creating unsafe API, return a Try[type] wich is either a Success or Failure
 - map, flatMap, filter behaves like Options
     - filter can create Failure if condition is not met ...
 - **for saves lives!!!**
+
+## Pattern matching
+- The `match` keywords can be used to match a value and do something about it.
+- The default pattern matching symbol `_` is the **wildcard** pattern.
+- We can use pattern matching to decompose an object:
+```
+val result = someInstance match {
+    case Person(name, age) => s"My name is $name and I am $age years old."
+    case _ => "I don't know what I am."
+}
+```
+- `Case`s are matched in order. If nothing matches (i.e. no wildcard) it will return a `MatchError`.
+- The return type of a `match` is the unified type of all types in all `cases`. If there is no unification, the type is `Any`.
+- **Case classes** can be used for pattern matching. **Pattern matching** can be nested with **case classes**:
+```
+val aList: MyList[Int] = Cons(1, Cons(2, Empty))
+val matchList = aList match {
+  case Empty =>
+  case Cons(head1, Cons(head2, tail2)) =>
+}
+```
+- Pattern matching on `List` has many possibilities:
+```
+val aStandardList = List(1,2,3,42)
+val standardListMatching = aStandardList match {
+  case List(1, _, _, _) => // extractor
+  case List(1, _*) => // List of arbitrary length
+  case 1 :: List(_) => // infix pattern
+  case List(_) :+ 42 => // infix pattern
+}
+```
+
+- Define the type to match by specifying it: `case list: List[Int] =>`.
+- Name a pattern matched with 
+```
+val nameBindingMatch = aList match {
+    case notEmptyList @ Cons(_, _) => //name a pattern => use the name later(here)
+    case Cons(1, rest @ Cons(2,_)) => //name binding inside nested patterns
+  }
+```
+- Match multiple patterns with `|` as in `case Empty | Cons(0, _) =>`.
+- Match a pattern with condition with `case Cons(_, Cons(specialElement, _)) if specialElement > 3 =>`.
+
+

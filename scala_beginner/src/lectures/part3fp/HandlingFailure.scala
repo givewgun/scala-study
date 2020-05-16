@@ -25,7 +25,7 @@ object HandlingFailure extends App {
   println(potentialFailure.isSuccess) //false
 9
   //orElse
-  def backupMethod: String = "Backup"
+  def backupMethod(): String = "Backup"
   val fallbackTry = Try(unsafeMethod()).orElse(Try(backupMethod()))
 
   //If designed APis
