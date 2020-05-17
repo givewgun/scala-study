@@ -113,3 +113,13 @@ val flatter = for {
 
 //flatter is List(2, 7, 3, 8, 4, 9, 5, 10, 6, 11, 7, 12, 8, 13, 9, 14): List[Int]
 ```
+
+```
+val coor = for(i <- 1 to 10; j <- 11 to 20) yield (i, j)
+val sum = coor.foldLeft((0,0))(
+  (acc , tuple) => (acc._1 + tuple._1, acc._2 + tuple._2)
+)
+
+//sum is (550,1550): (Int, Int)
+```
+ 
