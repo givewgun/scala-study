@@ -95,3 +95,21 @@ Using `groupBy` on a `List` creates a `map`
 
 
 - visit cheat sheet
+
+## Experiment
+```
+
+val a = Some(List(List(1,2,3,4), List(5,6,7,8)))
+  .foldLeft(List[List[Int]]())((acc, x) => acc ++ x)
+//
+val b = a.map(l => l.flatMap(x => List(x, x + 5)))
+
+//b is List(List(1, 6, 2, 7, 3, 8, 4, 9), List(5, 10, 6, 11, 7, 12, 8, 13)): List[List[Int]]
+
+val flatter = for {
+  l <- b
+  elem <- l
+} yield elem + 1
+
+//flatter is List(2, 7, 3, 8, 4, 9, 5, 10, 6, 11, 7, 12, 8, 13, 9, 14): List[Int]
+```
