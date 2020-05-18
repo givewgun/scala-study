@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfcf302-d293-41fb-a4db-c5420abd77f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercise/part4/PatternMatching.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part4PatternMatching/AllThePatterns.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part4PatternMatching/PatternMatching.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part4PatternMatching/PatternsEverywhere.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part3fp/HandlingFailure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part3fp/HandlingFailure.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summary/Misc.md" beforeDir="false" afterPath="$PROJECT_DIR$/summary/Misc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/Options$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/Options$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/Options.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/exercise/part3/Options.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/summary/Collections.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/summary/Misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/summary/part1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/summary/part2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginner/summary/part3.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589557080107</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finish Beginner&#10;- need review">
+      <created>1589609199377</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589609199377</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,7 +188,8 @@
     <MESSAGE value="Add more lesson&#10;- Immutable Collection" />
     <MESSAGE value="Add more lesson&#10;- Complete part3" />
     <MESSAGE value="Change summary location" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change summary location" />
+    <MESSAGE value="Finish Beginner&#10;- need review" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Beginner&#10;- need review" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589462707400">
@@ -191,54 +200,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589516781137" />
-    <state x="169" y="0" key="CommitChangelistDialog2" timestamp="1589557077870">
+    <state x="169" y="0" key="CommitChangelistDialog2" timestamp="1589609190055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="169" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589557077870" />
+    <state x="169" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609190055" />
     <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1589340020347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589340020347" />
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1589609154585">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1589609252570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609154585" />
-    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1589609154585">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609252570" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1589609252570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609154585" />
-    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1589609154584">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609252570" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1589609252570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609154584" />
-    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1589609154585">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609252570" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1589609252570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609154585" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589608478456">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609252570" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589609252571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589608478456" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589608478456">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609252571" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589609252571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589608478456" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589608478456">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609252571" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589609252571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589608478456" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589608478456">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609252571" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589609252571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589608478456" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609252571" />
     <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1589294903808">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589294903808" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589557081442">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589609234744">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589557081442" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589609234744" />
     <state x="352" y="155" key="com.intellij.ide.util.TipDialog" timestamp="1589603533277">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -256,10 +265,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589604674916" />
-    <state x="65" y="0" key="new project wizard" timestamp="1589340027576">
+    <state x="65" y="0" key="new project wizard" timestamp="1589773734258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589340027576" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728/-1440.0.1440.860@0.0.1366.728" timestamp="1589773734258" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1589199738592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
