@@ -46,4 +46,38 @@ val aManualFussyFunction = new PartialFunction[Int, Int] {
     -also `PartialFunction[A, B]`
         - `apply(key: A):B` //key calling
     - defined on the domains of its key (`A`)
+    
+## Currying and PAF and ETA-expansion
+- curried function =  f that return other f as result
+```aidl
+ val superAdder: Int => Int => Int =
+    x => y => x + y
+
+  val add3 = superAdder(3) // Int => Int = y => 3 + y
+  println(add3(5))
+  println(superAdder(3)(5)) //curried function
+```
+- curried method
+```aidl
+ def curriedAdder(x: Int)(y: Int): Int = x + y
+
+  val add4: Int => Int = curriedAdder(4) //must state type
+```
+- ETA expansion -> compiler convert method into a function
+    - "lifting"
+```aidl
+def inc(x: Int) = x + 1
+List(1,2,3).map(inc) // Compiler convert using ETA to x => inc(x)
+
+val add5 = curriedAdder(5) _ // _ convert this to Int => Int
+```
+- Underscore are very powerful => ETA manual from method
+```aidl
+def concatenator(a: String, b: String, c: String) = a + b + c
+def insertName = concatenator("Hello I'm ", _: String, "how are you") // x: String => concatenator(hello, x, howareu)
+println(insertName("Gun"))
+
+val fillInBlank = concatenator("Hello", _: String, _: String) // (x, y) => concatenator("hello", x, y)
+println(fillInBlank("Gun", "Nug"))
+```
         
