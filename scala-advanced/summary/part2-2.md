@@ -10,10 +10,10 @@
 
   lazy val y: Int = {
     println("hello")
-    12
+    42
   }
-  println(x) //hello 42
-  println(x) //42 (evaluate only onced for the first time)
+  println(y) //hello 42
+  println(y) //42 (evaluate only onced for the first time)
 ```
 - can be used with short circuit
 ```
