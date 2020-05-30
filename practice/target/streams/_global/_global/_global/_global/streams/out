@@ -1,0 +1,5 @@
+[debug] [watch] [practice / Test / test] Found inputs: G:\My Drive\scala-study\practice\*.{java,scala},G:\My Drive\scala-study\practice\src\main\java\**\*.{java,scala},G:\My Drive\scala-study\practice\src\main\resources\**\*,G:\My Drive\scala-study\practice\src\main\scala\**\*.{java,scala},G:\My Drive\scala-study\practice\src\main\scala-2.13\**\*.{java,scala},G:\My Drive\scala-study\practice\src\test\java\**\*.{java,scala},G:\My Drive\scala-study\practice\src\test\resources\**\*,G:\My Drive\scala-study\practice\src\test\scala\**\*.{java,scala},G:\My Drive\scala-study\practice\src\test\scala-2.13\**\*.{java,scala}
+[info] 1. Monitoring source files for practice/test...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] [watch] [debug] Received input event: Run().
+[debug] [watch] [debug] Received input event: Run().
